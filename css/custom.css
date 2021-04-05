@@ -72,7 +72,10 @@
 
 .nav-top {
   background-color: #f72210;
-  padding: 8px;
+}
+
+.nav-container {
+  padding: 10px;
 }
 
 .btn-subscribe {
@@ -82,7 +85,6 @@
 
 .nav-middle .navbar-nav a {
   color: black !important;
-  line-height: 50px;
 }
 
 /* Desktop */
@@ -93,6 +95,11 @@
     fill: #fff;
     margin-left: 100px;
     margin-top: 10px;
+  }
+
+  .nav-top {
+    background-color: #f72210;
+    height: 130px;
   }
 
   .datetime,
@@ -116,6 +123,12 @@
     color: #fff;
     font-weight: bold;
     margin-right: 20px;
+  }
+  .nav-middle {
+    content: "";
+    width: 100%;
+    margin-top: 50px 0px 10px 0px;
+    clip-path: polygon(0 0, 94% 0, 100% 100%, 0% 100%);
   }
   .nav-middle a {
     font-weight: bold;
