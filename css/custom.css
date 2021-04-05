@@ -73,8 +73,8 @@
 }
 
 .btn-subscribe {
-  font-weight: bold;
-  border-radius: 20px;
+  font-weight: bold !important;
+  border-radius: 20px !important;
 }
 
 .nav-middle .navbar-nav a {
@@ -96,7 +96,7 @@
     display: none;
   }
   .datetime {
-    margin-top: 40px;
+    padding-top: 40px;
   }
   .search-area {
     padding-top: 40px;
