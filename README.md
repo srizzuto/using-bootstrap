@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> Project #2 of Microverse where I'll replicate a website making it responsive through different screen sizes
+> Project #3 of Microverse where we'll try to apply bootstrap techonology to replicate a page. SASS included.
 
 ## Built With
 
