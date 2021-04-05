@@ -1,0 +1,23 @@
+{
+  "name": "using-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "purge": "purgecss --css ./css/custom.css --content index.html -o ./css/style.css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srizzuto/using-bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srizzuto/using-bootstrap/issues"
+  },
+  "homepage": "https://github.com/srizzuto/using-bootstrap#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "purgecss": "^4.0.3"
+  }
+}
