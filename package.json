@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/srizzuto/using-bootstrap#readme",
   "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
     "express": "^4.17.1",
     "purgecss": "^4.0.3"
   }
