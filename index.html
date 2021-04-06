@@ -16,7 +16,7 @@
 <body>
   <header>
     <nav class="nav-top">
-      <div class="container-fluid nav-container">
+      <div class="container-fluid p-3">
         <div class="row">
           <div class="col-2 datetime">
             <a href="#">Wed, Jan 20, 2021</a>
@@ -40,7 +40,7 @@
             <a href="#" class="user-logo">
               <img src="images/user_logo.JPG" alt="user-logo">
             </a>
-            <button class="btn btn-warning btn-sm btn-subscribe">SUBSCRIBE ></button>
+            <button class="btn btn-warning btn-sm fw-bold rounded-pill">SUBSCRIBE ></button>
             <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <img src="images/menu_logo.JPG" alt="menu_logo">
@@ -48,27 +48,28 @@
           </div>
         </div>
       </div>
-      <div class="nav-middle navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" href="#">U.S</a>
-              <a class="nav-link" href="#">World</a>
-              <a class="nav-link" href="#">Business</a>
-              <a class="nav-link" href="#">Tech & Science</a>
-              <a class="nav-link" href="#">Culture</a>
-              <a class="nav-link" href="#">Newsgeek</a>
-              <a class="nav-link" href="#">Sports</a>
-              <a class="nav-link" href="#">Health</a>
-              <a class="nav-link" href="#">The Debate</a>
-              <a class="nav-link" href="#">Experts</a>
-              <a class="nav-link" href="#">Vantage</a>
+
+      <div class="nav-scroller navbar-light bg-light fw-bold d-none d-lg-block">
+        <nav class="nav d-flex nav-middle">
+          <a class="nav-link" href="#">U.S</a>
+            <a class="nav-link" href="#">World</a>
+            <a class="nav-link" href="#">Business</a>
+            <a class="nav-link" href="#">Tech & Science</a>
+            <a class="nav-link" href="#">Culture</a>
+            <a class="nav-link" href="#">Newsgeek</a>
+            <a class="nav-link" href="#">Sports</a>
+            <a class="nav-link" href="#">Health</a>
+            <a class="nav-link" href="#">The Debate</a>
+            <a class="nav-link" href="#">Experts</a>
+            <a class="nav-link" href="#">Vantage</a>
+            <div class="mt-4">
+              <form action="#">
+                <input type="text" placeholder="Search" class="search-form" id="search">
+                  <img src="images/search_icon.JPG" alt="search_icon">
+              </form>
             </div>
-            <div class="navbar-nav search_icon">
-              <a href="#">Search <img src="images/search_icon.JPG" alt=""></a>
-            </div>
-          </div>
-        </div>
+
+        </nav>
       </div>
     </nav>
     
@@ -89,7 +90,9 @@
       </div>
     </nav>
   </header>
+
   <div class="container-fluid h-100"></div>
+
   <footer class="container-fluid page-footer fixed-bottom">
     <div>
       <div class="d-md-flex flex-wrap">

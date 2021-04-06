@@ -6,10 +6,8 @@
   margin-bottom: 12px;
 }
 
-.nav-logo {
-  width: 150px;
-  height: 30px;
-  fill: #fff;
+.bd {
+  border: 1px solid;
 }
 
 .link-size {
@@ -48,6 +46,17 @@
   margin-bottom: 12px;
 }
 
+.search-form {
+  border: none;
+  padding-left: 5px;
+  width: 25%;
+}
+
+.nav-top {
+  background-color: #f72210;
+  height: 65px;
+}
+
 @media only screen and (min-width: 768px) {
   .show-border {
     border-right: 1px solid #e7e7e7;
@@ -63,45 +72,26 @@
 
 .search-area {
   text-align: right;
-  margin-right: auto;
+  margin-left: auto;
 }
 
 .search-area > a {
   text-decoration: none;
 }
 
-.nav-top {
-  background-color: #f72210;
+.nav-logo {
+  width: 50%;
+  height: 20px;
+  fill: #fff;
 }
 
-.nav-container {
-  padding: 10px;
-}
-
-.btn-subscribe {
-  font-weight: bold !important;
-  border-radius: 20px !important;
-}
-
-.nav-middle .navbar-nav a {
+.nav-middle a {
   color: black !important;
+  line-height: 50px;
 }
 
 /* Desktop */
 @media only screen and (min-width: 992px) {
-  .nav-logo {
-    width: 380px;
-    height: 50px;
-    fill: #fff;
-    margin-left: 100px;
-    margin-top: 10px;
-  }
-
-  .nav-top {
-    background-color: #f72210;
-    height: 130px;
-  }
-
   .datetime,
   .nav-middle,
   .nav-lower,
@@ -124,23 +114,14 @@
     font-weight: bold;
     margin-right: 20px;
   }
-  .nav-middle {
-    content: "";
-    width: 100%;
-    margin-top: 50px 0px 10px 0px;
-    clip-path: polygon(0 0, 94% 0, 100% 100%, 0% 100%);
+  .nav-top {
+    background-color: #f72210;
+    height: 170px;
   }
   .nav-middle a {
-    font-weight: bold;
     border-right: 1px solid #e6e4e4;
     font-size: 1rem;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  .search_icon a {
-    text-decoration: none;
-    color: grey;
-    font-weight: lighter;
-    padding: 3px 2px 0 5px;
   }
   .nav-lower a {
     border-top: 2px solid #e6e4e4;
@@ -151,6 +132,12 @@
   .datetime a {
     text-decoration: none;
     color: #fff;
+  }
+  .nav-logo {
+    width: 80%;
+    height: 100%;
+    margin-left: 100px;
+    fill: #fff;
   }
 }
 
