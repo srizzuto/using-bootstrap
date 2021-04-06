@@ -242,7 +242,7 @@ a {
     position: absolute;
     height: 20px;
     width: 20px;
-    right: 85px;
+    right: 82px;
     background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
   }
   .search {
@@ -250,6 +250,7 @@ a {
     height: 60px;
     width: 54px;
     top: 0;
+    right: 102px;
   }
 }
 
