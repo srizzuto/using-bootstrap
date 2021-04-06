@@ -1,16 +1,16 @@
 $f-l-color: #666;
 $red-color: #f72210;
-$pink-color: #FB9B93;
+$pink-color: #fb9b93;
 $btn-color: #ffe400;
-  
+
 html {
   margin: auto;
 }
-  
+
 a {
   cursor: pointer;
 }
-  
+
 .svg-style {
   width: 236px;
   height: 36px;
@@ -18,7 +18,7 @@ a {
   margin-right: 15px;
   margin-bottom: 12px;
 }
-  
+
 .svg-header {
   fill: white;
   width: 132px;
@@ -76,7 +76,7 @@ a {
 
 .btn-suscribe {
   margin-left: 10px;
-  padding: 0px 12px;
+  padding: 0 12px;
   background-color: $btn-color;
   border-radius: 24px;
   text-transform: uppercase;
@@ -89,7 +89,7 @@ a {
   width: 30px;
   height: 30px;
   padding-left: 0;
-  opacity: .75;
+  opacity: 0.75;
   background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/user-w.svg) center / contain no-repeat;
 }
 
@@ -169,7 +169,6 @@ a {
     font: bold 18px 'Roboto Condensed', sans-serif;
     height: 30px;
     width: 76px;
-    padding-left: 0;
     background: none;
     color: white;
     opacity: 1;
@@ -183,7 +182,7 @@ a {
     color: white;
     display: block;
     margin-left: 10px;
-    font: 16px/34px "Roboto Condensed",sans-serif;
+    font: 16px/34px "Roboto Condensed", sans-serif;
   }
 
   .svg-header {
@@ -194,7 +193,7 @@ a {
     position: absolute;
     top: 0;
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
   }
 
   .header-top {
@@ -207,8 +206,8 @@ a {
   }
 
   .section {
-    font: bold 19px/24px "Roboto Condensed",sans-serif;
-    padding: 0 ;
+    font: bold 19px/24px "Roboto Condensed", sans-serif;
+    padding: 0;
   }
 
   .nav-header {
@@ -231,7 +230,7 @@ a {
   }
 
   .trending {
-    font: bold 16px/24px "Roboto Condensed",sans-serif;
+    font: bold 16px/24px "Roboto Condensed", sans-serif;
     color: #807f84;
     padding-left: 30px;
   }
@@ -247,11 +246,11 @@ a {
     right: 85px;
     background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
   }
-  
+
   .search {
     position: absolute;
     height: 60px;
     width: 54px;
     top: 0;
   }
-}  
+}
