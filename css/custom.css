@@ -118,6 +118,11 @@
     background-color: #f72210;
     height: 170px;
   }
+  .nav-middle-wrap {
+    width: 98%;
+    -webkit-clip-path: polygon(0 0%, 95% 0%, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0%, 95% 0%, 100% 100%, 0% 100%);
+  }
   .nav-middle a {
     border-right: 1px solid #e6e4e4;
     font-size: 1rem;
