@@ -18,7 +18,7 @@
   <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
 </head>
 
-<body class="mx-auto mwidth">
+<body class="mx-auto mwidth d-block">
   <div class="container-fluid bg-white mwidth">
     <header>
       <div class="container-fluid empty-container"></div>
@@ -104,10 +104,10 @@
         </nav>
       </div>
     </header>
-    <div class="container-fluid h-100"></div>
+    <div class="container-fluid"></div>
     <main class="main container-fluid">
-      <div class="d-flex">
-        <div class="first-block d-flex flex-row">
+      <div class="d-lg-flex flex-lg-row d-flex flex-column">
+        <div class="first-block d-flex flex-md-row flex-lg-row flex-column position-static">
           <div class="f-stories d-block float-start">
             <div class="sticky float-start">
               <div class="main-title">FEATURED STORIES</div>
@@ -116,7 +116,7 @@
                   <div class="category">
                     <a class="category text-decoration-none" href="#">U.S.</a>
                   </div>
-                  <picture><img class="d-block mw-100 mh-100"
+                  <picture><img class="d-block w-100 h-100"
                       src="https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711616/donald-trump.jpg?w=397&amp;h=265&amp;q=90&amp;f=d759057143d283aa0ea0ed13fba5450a">
                   </picture>
                 </div>
@@ -135,7 +135,7 @@
                   <div class="category">
                     <a class="category text-decoration-none" href="#">POLITICS</a>
                   </div>
-                  <picture><img class="d-block mw-100 mh-100"
+                  <picture><img class="d-block w-100 h-100"
                       src="https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711585/trump-waves-south-lawn.jpg?w=397&amp;h=265&amp;q=90&amp;f=b1d4597db1fa3acb99946d38d0805862"
                       alt="">
                   </picture>
@@ -155,7 +155,7 @@
                   <div class="category">
                     <a class="category text-decoration-none" href="#">EXPERTS</a>
                   </div>
-                  <picture><img class="d-block mw-100 mh-100"
+                  <picture><img class="d-block w-100 h-100"
                       src="https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1702746/newsweek-expert-forum.png?w=397&amp;h=265&amp;q=90&amp;f=2b0debf48d5c11f398db27d2c484db40"
                       alt="">
                   </picture>
@@ -174,7 +174,7 @@
                   <div class="category">
                     <a class="category text-decoration-none" href="#">POLITICS</a>
                   </div>
-                  <picture><img class="d-block mw-100 mh-100"
+                  <picture><img class="d-block w-100 h-100"
                       src="https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711574/trump-steps-off-air-force-one.jpg?w=397&amp;h=265&amp;q=90&amp;f=0a41e0b42272b700b5e88d364b127980"
                       alt="">
                   </picture>
@@ -193,7 +193,7 @@
                   <div class="category">
                     <a class="category text-decoration-none" href="#">POLITICS</a>
                   </div>
-                  <picture><img class="d-block mw-100 mh-100"
+                  <picture><img class="d-block w-100 h-100"
                       src="https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711670/biden-delivers-remarks-during-memorial-service.jpg?w=397&amp;h=265&amp;q=90&amp;f=7fb506e1c1fd2cf280d10c2679b7a441"
                       alt="">
                   </picture>
@@ -242,7 +242,7 @@
                     <div class="wrap">
                       <div class="sponsored-insight">SPONSORED INSIGHT</div>
                       <div class="position-relative">
-                        <div class="d-block">
+                        <div class="d-block mx-auto">
                           <a class="text-decoration-none" ref="#" rel="noopener" target="_blank">
                             <img class="w-100 h-100"
                               src="https://web.archive.org/web/20210120125445if_/https://d.newsweek.com/en/full/1677235/american-school-doha.jpg?w=500&h=333&f=dc8bef3e2240004c9f605c245b05c06e"
@@ -319,7 +319,7 @@
               </div>
             </div>
           </div>
-          <div class="t-story">
+          <div class="t-story d-flex flex-column">
             <div class="sticky float-start">
               <div class="main-title">TOP STORY</div>
               <article class="article">
@@ -328,7 +328,7 @@
                     <div class="category">
                       <a class="category text-decoration-none" href="#">POLITICS</a>
                     </div>
-                    <img class="d-block mw-100 mh-100"
+                    <img class="position-relative start-0 end-0 d-block w-100 h-100"
                       src="https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711649/biden-speaks-delaware.jpg?w=591&amp;h=364&amp;f=400256ef3c52b699d57e5db01061d213">
                   </picture>
                 </div>
@@ -344,9 +344,9 @@
                 </div>
               </article>
               <div class="main-title">MY TURN</div>
-              <article class="article">
-                <div class="my-turn pt-2 pb-2">
-                  <div class="d-flex justify-content-start">
+              <article class="article position-static">
+                <div class="my-turn pt-2 pb-2 position-static d-flex flex-lg-row  flex-column">
+                  <div class="d-flex flex-lg-row flex-md-row flex-column justify-content-start">
                     <div class="px-2 h-100">
                       <div>
                         <picture><img class=" position-relative h-100 w-100"
@@ -399,9 +399,9 @@
                 </div>
               </article>
               <div class="main-title">CULTURE & TRAVEL</div>
-              <article class="article">
-                <div class="my-turn pt-2 pb-2">
-                  <div class="d-flex justify-content-start">
+              <article class="article position-static d-flex flex-lg-row  flex-column">
+                <div class="my-turn pt-2 pb-2 position-static d-flex flex-lg-row  flex-column">
+                  <div class="position-static d-flex flex-lg-row  flex-md-row flex-column justify-content-start">
                     <div class="px-2 h-100">
                       <div>
                         <picture><img class="w-100 h-100"
@@ -980,7 +980,7 @@
             </div>
             <div>
               <div class="d-block">
-                <div class="pb-5 mt-5">
+                <div class="pb-5 mt-5 sponsored-max-width">
                   <div class="wrap">
                     <div class="sponsored-insight">SPONSORED INSIGHT</div>
                     <div class="position-relative">
@@ -1019,7 +1019,7 @@
             </div>
             <div>
               <div class="d-block">
-                <div class="mt-5">
+                <div class="mt-5  sponsored-max-width">
                   <div class="wrap">
                     <div class="sponsored-insight">RANKINGS</div>
                     <div class="position-relative">
@@ -1046,7 +1046,7 @@
             </div>
             <div>
               <div class="d-block">
-                <div class="mt-5">
+                <div class="mt-5  sponsored-max-width">
                   <div class="wrap">
                     <div class="sponsored-insight">SPONSORED INSIGHT</div>
                     <div class="position-relative">
@@ -1074,7 +1074,7 @@
             </div>
             <div>
               <div class="d-block">
-                <div class="pb-5 mt-5">
+                <div class="pb-5 mt-5  sponsored-max-width">
                   <div class="wrap">
                     <div class="sponsored-insight">SPONSORED INSIGHT</div>
                     <div class="position-relative">

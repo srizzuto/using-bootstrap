@@ -130,6 +130,7 @@ a {
 
 .page-footer {
   padding: 30px;
+  position: relative;
 }
 
 .icons {
@@ -154,6 +155,202 @@ a {
 .empty-container {
   height: 65px;
 }
+
+
+
+.main {
+  padding: 20px 30px 0;
+  max-width: 1310px;
+}
+
+.main-title {
+  font: bold 16px/24px $roboto;
+  color: #03030366;
+  padding-bottom: 11px;
+}
+
+.first-block {
+  width: 100%;
+}
+
+.debate {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.f-stories {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.t-story {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.article {
+  padding-bottom: 20px;
+}
+
+.title {
+  font: bold 24px $roboto;
+}
+
+.title2 {
+  font: bold 17px $roboto;
+}
+
+.title3 {
+  font: bold 16px $roboto;
+  padding: 15px 0 20px;
+}
+
+.short {
+  font: 15px $arial;
+  line-height: 20px;
+}
+
+.author {
+  font: 14px $roboto;
+  color: $f-l-color;
+}
+
+.debate-wrapper {
+  padding: 10px 0 4px;
+  border-top: 4px solid $lightgray;
+}
+
+.debate-wrapper2 {
+  padding: 4px 0 12px;
+  border-bottom: 4px solid $lightgray;
+}
+
+.vs {
+  background-color: black;
+  color: #d6d6d6;
+  border-radius: 100%;
+  border: none;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  z-index: 1;
+  font: 14px/32px $roboto;
+}
+
+.vs::before{
+  display: absolute;
+  border: 1px solid $lightgray;
+  content: "";
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 2px);
+}
+
+.vs::after {
+  display: block;
+  border: 1px solid $red-color;
+  content: "";
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+}
+
+.category {
+  display: block;
+  font: bold 17px/16px $roboto;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  color: $red-color;
+  background-color: rgba(255,255,255,.9);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.stories {
+  min-height: 134px;
+  padding: 14px 0;
+  border-top: 1px solid $lightgray
+}
+
+.img-setup {
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.bg-sponsored {
+  background-image: url("https://web.archive.org/web/20210120125445if_/https://d.newsweek.com/en/full/1710394/hungary-picture.jpg?w=500&h=333&f=d42c219d6231b1b93354974ad594869a");
+  background-size: cover;
+  padding: 66.75%;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+.sponsored-insight {
+  padding: 8px 15px 9px;
+  background-color: rgba(255,255,255,.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  color: #3581f4;
+  display: block;
+  font-weight: bold;
+}
+
+.wrap {
+  min-height: 33px;
+  position: relative;
+}
+
+.signup {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.form-title {
+  font: bold 19px/19px $roboto;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.n-icon {
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  width: 29px;
+  height: 28px;
+  margin-right: 10px;
+  flex: none;
+  display: block;
+}
+
+.form-text {
+  width: 100%;
+  height: 32px;
+  text-indent: 9px;
+  border: 1px solid #e0e1e1;
+  font: 14px/32px "Helvetica", sans-serif;
+}
+
+.form-submit {
+  margin-top: 8px;
+  width: 100%;
+  background: url(https://web.archive.org/web/20210120130223im_/https://g.newsweek.com/www/images/free-sign-up.svg) center/108px no-repeat $red-color;
+  font: bold 0/32px $roboto;
+  text-transform: uppercase;
+}
+
 
 @media (min-width: 768px) {
   .hamburguer {
@@ -191,6 +388,144 @@ a {
     opacity: 1;
     margin: 4px 0;
     padding: 0 15px;
+  }
+
+  .debate {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .debate-wrapper {
+    padding: 10px 0 4px;
+    border-top: 4px solid $lightgray;
+  }
+
+  .debate-wrapper2 {
+    padding: 4px 0 12px;
+    border-bottom: 4px solid $lightgray;
+  }
+
+  .vs {
+    background-color: black;
+    color: #d6d6d6;
+    border-radius: 100%;
+    border: none;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    z-index: 1;
+    font: 14px/32px $roboto;
+  }
+
+  .vs::before{
+    display: absolute;
+    border: 1px solid $lightgray;
+    content: "";
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc(50% - 2px);
+  }
+
+  .vs::after {
+    display: block;
+    border: 1px solid $red-color;
+    content: "";
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+  }
+
+  .category {
+    display: block;
+    font: bold 17px/16px $roboto;
+    text-transform: uppercase;
+    padding: 8px 15px 9px;
+    color: $red-color;
+    background-color: rgba(255,255,255,.9);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .stories {
+    min-height: 134px;
+    padding: 14px 0;
+    border-top: 1px solid $lightgray
+  }
+
+  .img-setup {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+  }
+
+  .bg-sponsored {
+    background-image: url("https://web.archive.org/web/20210120125445if_/https://d.newsweek.com/en/full/1710394/hungary-picture.jpg?w=500&h=333&f=d42c219d6231b1b93354974ad594869a");
+    background-size: cover;
+    padding: 66.75%;
+    display: block;
+    background-repeat: no-repeat;
+  }
+
+  .sponsored-insight {
+    padding: 8px 15px 9px;
+    background-color: rgba(255,255,255,.9);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    color: #3581f4;
+    display: block;
+    font-weight: bold;
+  }
+
+  .sponsored-max-width {
+    max-width: 330px;
+    margin: auto;
+  }
+
+  .wrap {
+    min-height: 33px;
+    position: relative;
+  }
+
+  .signup {
+    max-width: 300px;
+    margin: 0 auto 30px;
+    background-color: #f4f5f6;
+    padding: 20px;
+  }
+
+  .form-title {
+    font: bold 19px/19px $roboto;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+
+  .n-icon {
+    background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    width: 29px;
+    height: 28px;
+    margin-right: 10px;
+    flex: none;
+    display: block;
+  }
+
+  .form-text {
+    width: 100%;
+    height: 32px;
+    text-indent: 9px;
+    border: 1px solid #e0e1e1;
+    font: 14px/32px "Helvetica", sans-serif;
   }
 }
 
