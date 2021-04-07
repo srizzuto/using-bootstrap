@@ -118,7 +118,7 @@ a {
 .link-size {
   line-height: 15px;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
 }
 
 .footer-links {
@@ -126,7 +126,7 @@ a {
 }
 
 .fs-7 {
-  font: 12px Arial, Helvetica, sans-serif;
+  font: 12px arial, helvetica, sans-serif;
 }
 
 .pe-20 {
@@ -154,7 +154,7 @@ a {
 
 .p-middle {
   padding: 15px;
-  font: 15px Arial, Helvetica, sans-serif;
+  font: 15px arial, helvetica, sans-serif;
 }
 
 .empty-container {
@@ -209,7 +209,7 @@ a {
 }
 
 .short {
-  font: 15px Arial, Helvetica, sans-serif;
+  font: 15px arial, helvetica, sans-serif;
   line-height: 20px;
 }
 
@@ -595,7 +595,7 @@ a {
     padding: 15px 0 20px;
   }
   .short {
-    font: 15px Arial, Helvetica, sans-serif;
+    font: 15px arial, helvetica, sans-serif;
     line-height: 20px;
   }
   .author {

@@ -4,7 +4,7 @@ $red-color: #f72210;
 $pink-color: #fb9b93;
 $btn-color: #ffe400;
 $roboto: 'Roboto Condensed', sans-serif;
-$arial: Arial, Helvetica, sans-serif;
+$arial: arial, helvetica, sans-serif;
 
 * {
   box-sizing: border-box;
@@ -156,8 +156,6 @@ a {
   height: 65px;
 }
 
-
-
 .main {
   padding: 20px 30px 0;
   max-width: 1310px;
@@ -225,7 +223,6 @@ a {
   border-bottom: 4px solid $lightgray;
 }
 
-
 .vs {
   background-color: black;
   color: #d6d6d6;
@@ -238,7 +235,7 @@ a {
   font: 14px/32px $roboto;
 }
 
-.vs::before{
+.vs::before {
   display: block;
   border: 1px solid #666;
   content: "";
@@ -268,7 +265,7 @@ a {
   text-transform: uppercase;
   padding: 8px 15px 9px;
   color: $red-color;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   left: 0;
   bottom: 0;
@@ -278,7 +275,7 @@ a {
 .stories {
   min-height: 134px;
   padding: 14px 0;
-  border-top: 1px solid $lightgray
+  border-top: 1px solid $lightgray;
 }
 
 .img-setup {
@@ -301,7 +298,7 @@ a {
 
 .sponsored-insight {
   padding: 8px 15px 9px;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -353,7 +350,6 @@ a {
   font: bold 0/32px $roboto;
   text-transform: uppercase;
 }
-
 
 @media (min-width: 768px) {
   .hamburguer {
@@ -414,7 +410,7 @@ a {
     text-transform: uppercase;
     padding: 8px 15px 9px;
     color: $red-color;
-    background-color: rgba(255,255,255,.9);
+    background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
     left: 0;
     bottom: 0;
@@ -424,7 +420,7 @@ a {
   .stories {
     min-height: 134px;
     padding: 14px 0;
-    border-top: 1px solid $lightgray
+    border-top: 1px solid $lightgray;
   }
 
   .img-setup {
@@ -447,7 +443,7 @@ a {
 
   .sponsored-insight {
     padding: 8px 15px 9px;
-    background-color: rgba(255,255,255,.9);
+    background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -649,7 +645,7 @@ a {
     text-transform: uppercase;
     padding: 8px 15px 9px;
     color: $red-color;
-    background-color: rgba(255,255,255,.9);
+    background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
     left: 0;
     bottom: 0;
@@ -659,7 +655,7 @@ a {
   .stories {
     min-height: 134px;
     padding: 14px 0;
-    border-top: 1px solid $lightgray
+    border-top: 1px solid $lightgray;
   }
 
   .img-setup {
@@ -682,7 +678,7 @@ a {
 
   .sponsored-insight {
     padding: 8px 15px 9px;
-    background-color: rgba(255,255,255,.9);
+    background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
     bottom: 0;
     left: 0;
