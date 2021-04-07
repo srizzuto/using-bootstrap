@@ -241,25 +241,27 @@ a {
 }
 
 .vs::before {
-  display: absolute;
-  border: 1px solid #e2e1e1;
+  display: block;
+  border: 1px solid #666;
   content: "";
   height: 1px;
   position: absolute;
   left: 0;
   right: 0;
   top: calc(50% - 2px);
+  z-index: -1;
 }
 
 .vs::after {
   display: block;
-  border: 1px solid #f72210;
+  border: 1px solid #666;
   content: "";
   height: 1px;
   position: absolute;
   left: 0;
   right: 0;
   top: 50%;
+  z-index: -1;
 }
 
 .category {
@@ -401,37 +403,6 @@ a {
   .debate-wrapper2 {
     padding: 4px 0 12px;
     border-bottom: 4px solid #e2e1e1;
-  }
-  .vs {
-    background-color: black;
-    color: #d6d6d6;
-    border-radius: 100%;
-    border: none;
-    width: 32px;
-    height: 32px;
-    text-align: center;
-    z-index: 1;
-    font: 14px/32px "Roboto Condensed", sans-serif;
-  }
-  .vs::before {
-    display: absolute;
-    border: 1px solid #e2e1e1;
-    content: "";
-    height: 1px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: calc(50% - 2px);
-  }
-  .vs::after {
-    display: block;
-    border: 1px solid #f72210;
-    content: "";
-    height: 1px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 50%;
   }
   .category {
     display: block;
@@ -581,8 +552,8 @@ a {
   }
   .search {
     position: absolute;
-    height: 60px;
-    width: 54px;
+    height: 54px;
+    width: 60px;
     top: 0;
     right: 102px;
   }
@@ -638,37 +609,6 @@ a {
   .debate-wrapper2 {
     padding: 4px 0 12px;
     border-bottom: 4px solid #e2e1e1;
-  }
-  .vs {
-    background-color: black;
-    color: #d6d6d6;
-    border-radius: 100%;
-    border: none;
-    width: 32px;
-    height: 32px;
-    text-align: center;
-    z-index: 1;
-    font: 14px/32px "Roboto Condensed", sans-serif;
-  }
-  .vs::before {
-    display: absolute;
-    border: 1px solid #e2e1e1;
-    content: "";
-    height: 1px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: calc(50% - 2px);
-  }
-  .vs::after {
-    display: block;
-    border: 1px solid #f72210;
-    content: "";
-    height: 1px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 50%;
   }
   .category {
     display: block;
