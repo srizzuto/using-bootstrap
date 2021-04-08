@@ -222,7 +222,7 @@ a {
 }
 
 .f-t-image {
-  width: 150px;
+  width: 258px;
   margin-right: 15px;
 }
 
@@ -671,6 +671,10 @@ a {
   .debate-wrapper2 {
     padding: 4px 0 12px;
     border-bottom: 4px solid #e2e1e1;
+  }
+  .f-t-image {
+    width: 110px;
+    margin-right: 15px;
   }
   .category {
     display: block;
