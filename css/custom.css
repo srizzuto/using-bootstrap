@@ -1,9 +1,24 @@
-html {
-  margin: auto;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0;
+  list-style: none outside none;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #f4f5f6;
 }
 
 a {
   cursor: pointer;
+}
+
+.mwidth {
+  max-width: 1333px;
 }
 
 .svg-style {
@@ -87,7 +102,7 @@ a {
   background-color: #ffe400;
   border-radius: 24px;
   text-transform: uppercase;
-  font: bold 13px/24px 'Roboto Condensed', sans-serif;
+  font: bold 13px/24px "Roboto Condensed", sans-serif;
 }
 
 .log-button {
@@ -103,7 +118,7 @@ a {
 .link-size {
   line-height: 15px;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
 }
 
 .footer-links {
@@ -111,7 +126,7 @@ a {
 }
 
 .fs-7 {
-  font: 12px Arial, Helvetica, sans-serif;
+  font: 12px arial, helvetica, sans-serif;
 }
 
 .pe-20 {
@@ -119,7 +134,8 @@ a {
 }
 
 .page-footer {
-  padding: 48px 15px 30px;
+  padding: 30px;
+  position: relative;
 }
 
 .icons {
@@ -138,11 +154,208 @@ a {
 
 .p-middle {
   padding: 15px;
-  font: 15px Arial, Helvetica, sans-serif;
+  font: 15px arial, helvetica, sans-serif;
 }
 
 .empty-container {
   height: 65px;
+}
+
+.main {
+  padding: 20px 30px 0;
+  max-width: 1310px;
+}
+
+.main-title {
+  font: bold 16px/24px "Roboto Condensed", sans-serif;
+  color: #03030366;
+  padding-bottom: 11px;
+}
+
+.first-block {
+  width: 100%;
+}
+
+.debate {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.f-stories {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.t-story {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.article {
+  padding-bottom: 20px;
+}
+
+.title {
+  font: bold 24px "Roboto Condensed", sans-serif;
+}
+
+.title2 {
+  font: bold 17px "Roboto Condensed", sans-serif;
+}
+
+.title3 {
+  font: bold 16px "Roboto Condensed", sans-serif;
+  padding: 15px 0 20px;
+}
+
+.short {
+  font: 15px arial, helvetica, sans-serif;
+  line-height: 20px;
+}
+
+.author {
+  font: 14px "Roboto Condensed", sans-serif;
+  color: #666;
+}
+
+.debate-wrapper {
+  padding: 10px 0 4px;
+  border-top: 4px solid #e2e1e1;
+}
+
+.debate-wrapper2 {
+  padding: 4px 0 12px;
+  border-bottom: 4px solid #e2e1e1;
+}
+
+.vs {
+  background-color: black;
+  color: #d6d6d6;
+  border-radius: 100%;
+  border: none;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  z-index: 1;
+  font: 14px/32px "Roboto Condensed", sans-serif;
+}
+
+.vs::before {
+  display: block;
+  border: 1px solid #666;
+  content: "";
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 2px);
+  z-index: -1;
+}
+
+.vs::after {
+  display: block;
+  border: 1px solid #666;
+  content: "";
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  z-index: -1;
+}
+
+.category {
+  display: block;
+  font: bold 17px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.stories {
+  min-height: 134px;
+  padding: 14px 0;
+  border-top: 1px solid #e2e1e1;
+}
+
+.img-setup {
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.bg-sponsored {
+  background-image: url("https://web.archive.org/web/20210120125445if_/https://d.newsweek.com/en/full/1710394/hungary-picture.jpg?w=500&h=333&f=d42c219d6231b1b93354974ad594869a");
+  background-size: cover;
+  padding: 66.75%;
+  display: block;
+  background-repeat: no-repeat;
+}
+
+.sponsored-insight {
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  color: #3581f4;
+  display: block;
+  font-weight: bold;
+}
+
+.wrap {
+  min-height: 33px;
+  position: relative;
+}
+
+.signup {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.form-title {
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.n-icon {
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  width: 29px;
+  height: 28px;
+  margin-right: 10px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  display: block;
+}
+
+.form-text {
+  width: 100%;
+  height: 32px;
+  text-indent: 9px;
+  border: 1px solid #e0e1e1;
+  font: 14px/32px "Helvetica", sans-serif;
+}
+
+.form-submit {
+  margin-top: 8px;
+  width: 100%;
+  background: url(https://web.archive.org/web/20210120130223im_/https://g.newsweek.com/www/images/free-sign-up.svg) center/108px no-repeat #f72210;
+  font: bold 0/32px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
@@ -166,11 +379,11 @@ a {
     background-color: #ffe400;
     border-radius: 24px;
     text-transform: uppercase;
-    font: bold 18px/30px 'Roboto Condensed', sans-serif;
+    font: bold 18px/30px "Roboto Condensed", sans-serif;
   }
   .log-button {
     border: 0;
-    font: bold 18px 'Roboto Condensed', sans-serif;
+    font: bold 18px "Roboto Condensed", sans-serif;
     height: 30px;
     width: 76px;
     background: none;
@@ -178,6 +391,98 @@ a {
     opacity: 1;
     margin: 4px 0;
     padding: 0 15px;
+  }
+  .debate {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .debate-wrapper {
+    padding: 10px 0 4px;
+    border-top: 4px solid #e2e1e1;
+  }
+  .debate-wrapper2 {
+    padding: 4px 0 12px;
+    border-bottom: 4px solid #e2e1e1;
+  }
+  .category {
+    display: block;
+    font: bold 17px/16px "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    padding: 8px 15px 9px;
+    color: #f72210;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  .stories {
+    min-height: 134px;
+    padding: 14px 0;
+    border-top: 1px solid #e2e1e1;
+  }
+  .img-setup {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+  }
+  .bg-sponsored {
+    background-image: url("https://web.archive.org/web/20210120125445if_/https://d.newsweek.com/en/full/1710394/hungary-picture.jpg?w=500&h=333&f=d42c219d6231b1b93354974ad594869a");
+    background-size: cover;
+    padding: 66.75%;
+    display: block;
+    background-repeat: no-repeat;
+  }
+  .sponsored-insight {
+    padding: 8px 15px 9px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    color: #3581f4;
+    display: block;
+    font-weight: bold;
+  }
+  .sponsored-max-width {
+    max-width: 330px;
+    margin: auto;
+  }
+  .wrap {
+    min-height: 33px;
+    position: relative;
+  }
+  .signup {
+    max-width: 300px;
+    margin: 0 auto 30px;
+    background-color: #f4f5f6;
+    padding: 20px;
+  }
+  .form-title {
+    font: bold 19px/19px "Roboto Condensed", sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  .n-icon {
+    background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    width: 29px;
+    height: 28px;
+    margin-right: 10px;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    display: block;
+  }
+  .form-text {
+    width: 100%;
+    height: 32px;
+    text-indent: 9px;
+    border: 1px solid #e0e1e1;
+    font: 14px/32px "Helvetica", sans-serif;
   }
 }
 
@@ -247,10 +552,151 @@ a {
   }
   .search {
     position: absolute;
-    height: 60px;
-    width: 54px;
+    height: 54px;
+    width: 60px;
     top: 0;
     right: 102px;
+  }
+  .main {
+    padding: 20px 30px 0;
+    max-width: 1310px;
+  }
+  .main-title {
+    font: bold 16px/24px "Roboto Condensed", sans-serif;
+    color: #03030366;
+    padding-bottom: 11px;
+  }
+  .first-block {
+    width: 71%;
+  }
+  .debate {
+    width: 29%;
+    padding: 0 15px;
+  }
+  .f-stories {
+    width: 41%;
+    padding: 0 15px;
+  }
+  .t-story {
+    width: 59%;
+    padding: 0 15px;
+  }
+  .article {
+    padding-bottom: 20px;
+  }
+  .title {
+    font: bold 24px "Roboto Condensed", sans-serif;
+  }
+  .title2 {
+    font: bold 17px "Roboto Condensed", sans-serif;
+  }
+  .title3 {
+    font: bold 16px "Roboto Condensed", sans-serif;
+    padding: 15px 0 20px;
+  }
+  .short {
+    font: 15px arial, helvetica, sans-serif;
+    line-height: 20px;
+  }
+  .author {
+    font: 14px "Roboto Condensed", sans-serif;
+    color: #666;
+  }
+  .debate-wrapper {
+    padding: 10px 0 4px;
+    border-top: 4px solid #e2e1e1;
+  }
+  .debate-wrapper2 {
+    padding: 4px 0 12px;
+    border-bottom: 4px solid #e2e1e1;
+  }
+  .category {
+    display: block;
+    font: bold 17px/16px "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    padding: 8px 15px 9px;
+    color: #f72210;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  .stories {
+    min-height: 134px;
+    padding: 14px 0;
+    border-top: 1px solid #e2e1e1;
+  }
+  .img-setup {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+  }
+  .bg-sponsored {
+    background-image: url("https://web.archive.org/web/20210120125445if_/https://d.newsweek.com/en/full/1710394/hungary-picture.jpg?w=500&h=333&f=d42c219d6231b1b93354974ad594869a");
+    background-size: cover;
+    padding: 66.75%;
+    display: block;
+    background-repeat: no-repeat;
+  }
+  .sponsored-insight {
+    padding: 8px 15px 9px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    color: #3581f4;
+    display: block;
+    font-weight: bold;
+  }
+  .wrap {
+    min-height: 33px;
+    position: relative;
+  }
+  .signup {
+    max-width: 300px;
+    margin: 0 auto 30px;
+    background-color: #f4f5f6;
+    padding: 20px;
+  }
+  .form-title {
+    font: bold 19px/19px "Roboto Condensed", sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  .n-icon {
+    background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    width: 29px;
+    height: 28px;
+    margin-right: 10px;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    display: block;
+  }
+  .form-text {
+    width: 100%;
+    height: 32px;
+    text-indent: 9px;
+    border: 1px solid #e0e1e1;
+    font: 14px/32px "Helvetica", sans-serif;
+  }
+  .form-submit {
+    margin-top: 8px;
+    width: 100%;
+    background: url(https://web.archive.org/web/20210120130223im_/https://g.newsweek.com/www/images/free-sign-up.svg) center/108px no-repeat #f72210;
+    font: bold 0/32px "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+  }
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 68px;
   }
 }
 
