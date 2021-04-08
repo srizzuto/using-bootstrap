@@ -134,10 +134,6 @@ a {
   font: 12px arial, helvetica, sans-serif;
 }
 
-.pe-20 {
-  padding-right: 20px;
-}
-
 .page-footer {
   padding: 30px;
   position: relative;
@@ -153,37 +149,15 @@ a {
   font-size: 26px;
 }
 
-.mb-12 {
-  margin-bottom: 12px;
-}
-
 .p-middle {
   padding: 15px;
   font: 15px arial, helvetica, sans-serif;
-}
-
-.empty-container {
-  height: 65px;
-}
-
-.main {
-  padding: 20px 30px 0;
-  max-width: 1310px;
 }
 
 .main-title {
   font: bold 16px/24px "Roboto Condensed", sans-serif;
   color: #03030366;
   padding-bottom: 11px;
-}
-
-.first-block {
-  width: 100%;
-}
-
-.debate {
-  width: 100%;
-  padding: 0 15px;
 }
 
 .f-stories {
@@ -194,10 +168,6 @@ a {
 .t-story {
   width: 100%;
   padding: 0 15px;
-}
-
-.article {
-  padding-bottom: 20px;
 }
 
 .title {
@@ -315,16 +285,6 @@ a {
   min-height: 134px;
   padding: 14px 0;
   border-top: 1px solid #e2e1e1;
-}
-
-.img-setup {
-  position: absolute;
-  opacity: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  height: 100%;
 }
 
 .bg-sponsored {
@@ -454,10 +414,6 @@ a {
     margin: 4px 0;
     padding: 0 15px;
   }
-  .debate {
-    width: 100%;
-    padding: 0 15px;
-  }
   .debate-wrapper {
     padding: 10px 0 4px;
     border-top: 4px solid #e2e1e1;
@@ -482,15 +438,6 @@ a {
     min-height: 134px;
     padding: 14px 0;
     border-top: 1px solid #e2e1e1;
-  }
-  .img-setup {
-    position: absolute;
-    opacity: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    height: 100%;
   }
   .bg-sponsored {
     background-image: url("https://web.archive.org/web/20210120125445if_/https://d.newsweek.com/en/full/1710394/hungary-picture.jpg?w=500&h=333&f=d42c219d6231b1b93354974ad594869a");
@@ -545,6 +492,11 @@ a {
     text-indent: 9px;
     border: 1px solid #e0e1e1;
     font: 14px/32px "Helvetica", sans-serif;
+  }
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 68px;
   }
 }
 
@@ -693,15 +645,6 @@ a {
     padding: 14px 0;
     border-top: 1px solid #e2e1e1;
   }
-  .img-setup {
-    position: absolute;
-    opacity: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    height: 100%;
-  }
   .bg-sponsored {
     background-image: url("https://web.archive.org/web/20210120125445if_/https://d.newsweek.com/en/full/1710394/hungary-picture.jpg?w=500&h=333&f=d42c219d6231b1b93354974ad594869a");
     background-size: cover;
@@ -758,11 +701,6 @@ a {
     background: url(https://web.archive.org/web/20210120130223im_/https://g.newsweek.com/www/images/free-sign-up.svg) center/108px no-repeat #f72210;
     font: bold 0/32px "Roboto Condensed", sans-serif;
     text-transform: uppercase;
-  }
-  .sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 68px;
   }
 }
 
