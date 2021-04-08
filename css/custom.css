@@ -382,17 +382,6 @@ a {
   text-transform: uppercase;
 }
 
-.n-icon {
-  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
-  width: 29px;
-  height: 28px;
-  margin-right: 10px;
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
-  display: block;
-}
-
 .form-text {
   width: 100%;
   height: 32px;

@@ -363,10 +363,6 @@ a {
   background-color: #f4f5f6;
 }
 
-.overlap-img1 {
-
-}
-
 .overlap-img2 {
   position: absolute;
   top: 13px;
@@ -379,15 +375,6 @@ a {
   font: bold 19px/19px $roboto;
   margin-bottom: 15px;
   text-transform: uppercase;
-}
-
-.n-icon {
-  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
-  width: 29px;
-  height: 28px;
-  margin-right: 10px;
-  flex: none;
-  display: block;
 }
 
 .form-text {
@@ -407,13 +394,13 @@ a {
 }
 
 .n-icon {
- -webkit-flex: none;
+  -webkit-flex: none;
   flex: none;
   display: block;
   width: 29px;
   height: 28px;
   background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 
 .feature-style {
@@ -426,7 +413,6 @@ a {
   font: bold 18px/18px $roboto;
   padding: 10px 10px 10px 12px;
 }
-
 
 @media (min-width: 768px) {
   .hamburguer {
