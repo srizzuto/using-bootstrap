@@ -22,6 +22,11 @@ body {
 
 a {
   cursor: pointer;
+  color: inherit;
+}
+
+.red {
+  color: $red-color;
 }
 
 .mwidth {
@@ -203,6 +208,19 @@ a {
   padding: 15px 0 20px;
 }
 
+.title4 {
+  font: bold 19px/19px $roboto;
+}
+
+.title5 {
+  font: bold 22px $roboto;
+}
+
+.f-t-image {
+  width: 150px;
+  margin-right: 15px;
+}
+
 .short {
   font: 15px $arial;
   line-height: 20px;
@@ -272,6 +290,22 @@ a {
   z-index: 1;
 }
 
+.category2 {
+  display: inline-block;
+  font: bold 16px/26px $roboto;
+  text-transform: uppercase;
+  margin: 10px 0;
+  color: $red-color;
+}
+
+.magazine-cat {
+  display: inline-block;
+  padding: 0 7px;
+  background-color: $red-color;
+  font: bold 16px/26px $roboto;
+  color: white;
+}
+
 .stories {
   min-height: 134px;
   padding: 14px 0;
@@ -308,6 +342,11 @@ a {
   font-weight: bold;
 }
 
+.img-max-width {
+  max-width: 191px;
+  width: 48%;
+}
+
 .wrap {
   min-height: 33px;
   position: relative;
@@ -318,6 +357,22 @@ a {
   margin: 0 auto 30px;
   background-color: #f4f5f6;
   padding: 20px;
+}
+
+.bg-suscribe {
+  background-color: #f4f5f6;
+}
+
+.overlap-img1 {
+
+}
+
+.overlap-img2 {
+  position: absolute;
+  top: 13px;
+  left: 80px;
+  width: 178px;
+  height: 228px;
 }
 
 .form-title {
@@ -350,6 +405,28 @@ a {
   font: bold 0/32px $roboto;
   text-transform: uppercase;
 }
+
+.n-icon {
+ -webkit-flex: none;
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px; 
+}
+
+.feature-style {
+  color: black;
+  text-decoration: none;
+  background-color: #f4f5f6;
+  text-align: center;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font: bold 18px/18px $roboto;
+  padding: 10px 10px 10px 12px;
+}
+
 
 @media (min-width: 768px) {
   .hamburguer {
