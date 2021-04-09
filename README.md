@@ -1,6 +1,6 @@
 # using-bootstrap
 
-![Screenshot](./images/project_ss.png)
+![Screenshot](./images/readme_ss.png)
 
 > Project #3 of Microverse where we'll try to apply bootstrap techonology to replicate a page. SASS included.
 
