@@ -330,8 +330,8 @@ a {
 
 .overlap-img2 {
   position: absolute;
-  top: 13px;
-  left: 80px;
+  bottom: -8px;
+  left: 70px;
   width: 178px;
   height: 228px;
 }
@@ -497,6 +497,13 @@ a {
     position: -webkit-sticky;
     position: sticky;
     top: 68px;
+  }
+  .overlap-img2 {
+    position: absolute;
+    top: 18px;
+    left: 80px;
+    width: 178px;
+    height: 228px;
   }
 }
 
