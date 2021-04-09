@@ -1,6 +1,6 @@
 # using-bootstrap
 
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![Screenshot](./images/project_ss.png)
 
 > Project #3 of Microverse where we'll try to apply bootstrap techonology to replicate a page. SASS included.
 
